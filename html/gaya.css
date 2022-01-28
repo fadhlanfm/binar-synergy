@@ -1,0 +1,50 @@
+p, h1, span{ /* multiple selector */
+  color: blue;
+}
+
+span{
+  /* border: 1px solid black; */
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: purple;
+}
+
+p span::after {
+  content: "string";
+  color: orange;
+}
+
+p span::before {
+  content: "string";
+  color: gray;
+}
+
+button:hover {
+  color: red;
+}
+
+#h1-hello{
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.a{
+  font-weight: bolder;
+}
+
+.b{
+  font-weight: lighter;
+}
+
+/* #paragraph1, #paragraph2{
+  font-weight: bolder;
+} */
+
+button[type="submit"] {
+  color: brown;
+}
+
+.bottom-right-corner{
+   position: fixed; bottom: 0px; right: 0px; 
+}
